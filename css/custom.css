@@ -5,3 +5,5 @@
     background-size: cover;
     position: relative;
 }
+
+ul.navbar-nav li.nav-item.bg-success { border-radius: 5px; }
