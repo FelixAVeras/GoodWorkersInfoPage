@@ -7,3 +7,24 @@
 }
 
 ul.navbar-nav li.nav-item.bg-success { border-radius: 5px; }
+
+.bgImage {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/tools.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: auto;
+    width: 100%;
+}
+
+.imgBar { width: 47px; }
+
+.cardHome { transition: transform 0.3s ease; }
+
+.cardHome:hover { 
+    box-shadow: 10px 10px 5px #3a3838; 
+    transform: translateY(-5px);
+}
+
+p.lh-base { text-align: justify; font-size: 20px; }
